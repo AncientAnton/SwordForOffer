@@ -22,5 +22,19 @@
 |15 | [三数之和](https://leetcode-cn.com/problems/3sum/description/) | Java | 中等 |
 |16 | [最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/description/) | Java | 中等 |
 |17 | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/description/) | Java | 中等 |
-|18 | [四数之和](https://leetcode-cn.com/problems/4sum) | Java | 中等 |
-
+|18 | [四数之和](https://leetcode-cn.com/problems/4sum/description/) | Java | 中等 |
+|19 | [删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/description/) | Java | 中等 |
+|20 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/description/) | Java | 简单 |
+|21 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/) | Java | 简单 |
+|22 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/description/) | Java | 中等 |
+|23 | [合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/description/) | Java | 困难 |
+|24 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/description/) | Java | 中等 |
+|25 | [k个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/description/) | Java | 困难 |
+|26 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/description/) | Java | 简单 |
+|27 | [移除元素](https://leetcode-cn.com/problems/remove-element/description/) | Java | 简单 |
+|28 | [实现strStr()](https://leetcode-cn.com/problems/implement-strstr/description/) | Java | 简单 |
+|29 | [两数相除](https://leetcode-cn.com/problems/divide-two-integers/description/) | Java | 中等 |
+|30 | [与所有单词相关联的字串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/description/) | Java | 困难 |
+|31 | [下一个排列](https://leetcode-cn.com/problems/next-permutation/description/) | Java | 中等 |
+|105| [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/) | Java | 中等 |
+|106| [从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/) | Java | 中等 |

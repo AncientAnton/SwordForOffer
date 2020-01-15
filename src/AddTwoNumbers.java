@@ -1,3 +1,5 @@
+import util.ListNode;
+import static util.ListNode.*;
 /**
  * Author: AncientAnton
  * Date: 2018/7/29.
@@ -10,24 +12,6 @@
  * 原因：342 + 465 = 807
  */
 public class AddTwoNumbers {
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
-    }
-
-    public void printListNode(ListNode node) {
-        ListNode tmp = node;
-        if (tmp == null) {
-            System.out.println(tmp);
-        }
-        System.out.print(tmp.val);
-        while (tmp.next != null) {
-            System.out.print("->" + tmp.next.val);
-            tmp = tmp.next;
-        }
-        System.out.println();
-    }
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode result = l1;
@@ -64,15 +48,12 @@ public class AddTwoNumbers {
         return result;
     }
 
+    public void test() {
+
+    }
+
     public static void main(String[] args) {
         AddTwoNumbers solution = new AddTwoNumbers();
-        ListNode l1 = new AddTwoNumbers.ListNode(8);
-        l1.next = new ListNode(9);
-        l1.next.next = new ListNode(9);
-
-        ListNode l2 = new ListNode(2);
-
-        solution.printListNode(solution.addTwoNumbers(l1, l2));
-
+        solution.test();
     }
 }
