@@ -1,6 +1,6 @@
 刷题之路
 ========
-[Leetcode-cn](https://leetcode-cn.com/problemset/algorithms/)(progress 17/680)
+[Leetcode-cn](https://leetcode-cn.com/problemset/algorithms/)(progress 34/1587)
 
 
 | # | 标题  | 语言     | 难度       |
@@ -36,5 +36,7 @@
 |29 | [两数相除](https://leetcode-cn.com/problems/divide-two-integers/description/) | Java | 中等 |
 |30 | [与所有单词相关联的字串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/description/) | Java | 困难 |
 |31 | [下一个排列](https://leetcode-cn.com/problems/next-permutation/description/) | Java | 中等 |
+|42 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | Java | 困难 |
 |105| [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/) | Java | 中等 |
 |106| [从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/) | Java | 中等 |
+|335| [设计推特](https://leetcode-cn.com/problems/design-twitter/) | Java | 中等 | 

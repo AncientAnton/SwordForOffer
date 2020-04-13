@@ -68,17 +68,62 @@ public class LongestPalindromicSubstring {
         return s.substring(start, end + 1);
     }
 
+    public static String mancher(String s) {
+        if (s == null || s.length() < 2) return s;
+        char[] chars = new char[s.length() * 2 + 2];
+        chars[0] = '$';
+        chars[1] = '#';
+        int[] p = new int[chars.length];
+        for (int i = 0; i < s.length(); ++i) {
+            chars[2 * (i + 1)] = s.charAt(i);
+            chars[2 * (i + 1) + 1] = '#';
+        }
+        p[0] = 1;
+        int result = 0, maxLength = 1;
+        int id = 0, mx = 0;
+        for (int i = 1; i < p.length; ++i) {
+            if (i < mx) {
+                p[i] = Math.min(p[2 * id - i], mx - i);
+            } else {
+                p[i] = 1;
+            }
+            while(i + p[i] < p.length && i - p[i] > 0 && chars[i - p[i]] == chars[i + p[i]]) {
+                p[i]++;
+            }
+            if (mx < i + p[i]) {
+                id = i;
+                mx = i + p[i];
+            }
+            if (p[i] > maxLength) {
+                maxLength = p[i];
+                result = i;
+            }
+        }
+        if (maxLength == 1) {
+            return s.substring(0, 1);
+        }
+        StringBuilder sb = new StringBuilder();
+        for (int i = result - maxLength + 1; i <= result + maxLength - 1; ++i) {
+            if (chars[i] != '#' && chars[i] != '$') {
+                sb.append(chars[i]);
+            }
+        }
+        return sb.toString();
+    }
+
     public static void main(String[] args) {
-        System.out.println(longestPalindrome(""));
-        System.out.println(longestPalindrome("a"));
-        System.out.println(longestPalindrome("ab"));
-        System.out.println(longestPalindrome("bb"));
-        System.out.println(longestPalindrome("abb"));
-        System.out.println(longestPalindrome("bba"));
-        System.out.println(longestPalindrome("bab"));
-        System.out.println(longestPalindrome("abc"));
-        System.out.println(longestPalindrome("aaa"));
-        System.out.println(longestPalindrome("babab"));
-        System.out.println(longestPalindrome("cbbd"));
+//        System.out.println(longestPalindrome(""));
+//        System.out.println(longestPalindrome("a"));
+//        System.out.println(longestPalindrome("ab"));
+//        System.out.println(longestPalindrome("bb"));
+//        System.out.println(longestPalindrome("abb"));
+//        System.out.println(longestPalindrome("bba"));
+//        System.out.println(longestPalindrome("bab"));
+//        System.out.println(longestPalindrome("abc"));
+//        System.out.println(longestPalindrome("aaa"));
+//        System.out.println(longestPalindrome("babab"));
+//        System.out.println(longestPalindrome("cbbd"));
+        System.out.println(mancher("babab"));
+
     }
 }
