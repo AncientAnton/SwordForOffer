@@ -37,6 +37,11 @@
 |30 | [与所有单词相关联的字串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/description/) | Java | 困难 |
 |31 | [下一个排列](https://leetcode-cn.com/problems/next-permutation/description/) | Java | 中等 |
 |42 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | Java | 困难 |
+|55 | [跳跃游戏](https://leetcode-cn.com/problems/jump-game/) | Java | 中等 |
+|56 | [合并区间](https://leetcode-cn.com/problems/merge-intervals/) | Java | 中等 |
 |105| [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/) | Java | 中等 |
 |106| [从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/) | Java | 中等 |
-|335| [设计推特](https://leetcode-cn.com/problems/design-twitter/) | Java | 中等 | 
+|355| [设计推特](https://leetcode-cn.com/problems/design-twitter/) | Java | 中等 |
+|445| [两数相加 II](https://leetcode-cn.com/problems/add-two-numbers-ii/) | Java | 中等 |
+|542| [01矩阵](https://leetcode-cn.com/problems/01-matrix/) | Java | 中等 |
+
